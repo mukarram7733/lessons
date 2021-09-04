@@ -6,7 +6,19 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
 		<link rel="stylesheet" href="assets/app.css" />
-		<script src="assets/app.js"></script>
+		<script src="assets/app.js" defer></script>
 	</head>
-	<body></body>
+	<body>
+		<p id="para1">Javariptga kirish</p>
+		<button type="button" onclick='document.getElementById("para1").innerHTML="Hello world"'>
+			Click me!
+		</button>
+		<hr />
+		<button onclick="document.getElementById('myImage').src='https://www.w3schools.com/js/pic_bulbon.gif'">Turn on</button>
+		<img id="myImage" src="https://www.w3schools.com/js/pic_bulboff.gif"style="width: 100px;" alt="">
+		<button onclick="document.getElementById('myImage').src='https://www.w3schools.com/js/pic_bulboff.gif'">Turn off</button>
+
+	<button onclick='document.getElementById("para1").style.fontSize="35px"'>Make </button>
+
+	</body>
 </html>

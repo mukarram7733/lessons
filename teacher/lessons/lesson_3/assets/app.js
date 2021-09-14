@@ -34,7 +34,6 @@ function display() {
 	let list = "<ul>"
 	filteredItems.map((item) => list += "<li>" + item.title + "</li>")
 	list += "</ul>"
-
 	elements.innerHTML = list
 }
 
